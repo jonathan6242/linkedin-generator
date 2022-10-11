@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="row">
+    <nav>
+      <figure class="nav__logo">
+        <img src="./assets/Logo.png" alt="">
+      </figure>
+      <div class="nav__links">
+        <a class="nav__link" href="/">
+          About
+        </a>
+        <a class="nav__link" href="#">
+          Sign in
+        </a>
+        <a class="nav__link nav__link--primary" href="/create.html">
+          Generate
+        </a>
+      </div>
+      <!-- Hamburger Menu (Mobile) -->
+      <button class="hamburger">
+        <img src="./assets/hamburger.svg" alt="">
+      </button>
+    </nav>
+    <div class="create">
+      <div class="create__title">
+        Create Your Post Below
+      </div>
+      <div class="create__body">
+        <!-- Form -->
+        <div class="form__wrapper">
+          <form class="form">
+            <div class="input-group">
+              <label>
+                Job Title
+              </label>
+              <input 
+                type="text"
+                placeholder="Senior Product Designer"
+              >
+            </div>
+            <div class="input-group">
+              <label>
+                Topic
+              </label>
+              <input 
+                type="text"
+                placeholder="Design"
+              >
+            </div>
+            <button type="button" class="form__submit">
+              Generate Post
+            </button>
+          </form>
+        </div>
+        <!-- Output -->
+        <div class="form__output">
+          <p>
+          Hey all, the world of design never fails to make me smile! <br>
+          What aspects of design impress you?
+          </p>
+        </div>
+      </div>
+      <div class="line__up"></div>
+      <div class="line__right"></div>
+      <div class="line__down"></div>
+      <div class="line__left"></div>
+    </div>
+  </div>
+</body>
+</html>
